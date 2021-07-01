@@ -1,3 +1,6 @@
+@import url("https://fonts.google.com/specimen/Barlow");
+@import url("https://fonts.google.com/specimen/Fraunces");
+
 body {
   font-family: sans-serif;
   padding: 0;
@@ -10,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: 700px;
+  height: 91vh;
 }
 
 .navbar {
@@ -22,28 +25,48 @@ body {
 }
 
 .navbar-links {
+  align-items: center;
+  color: hsl(0, 0%, 100%, 80%);
   display: flex;
   flex-direction: row;
+  font-size: 13px;
+  font-weight: 600;
   justify-content: space-evenly;
   padding: 0;
   margin: 0;
   min-width: 376px;
 }
 
-.title {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
+.contact-link {
+  background-color: white;
+  border-radius: 25px;
+  color: black;
+  font-family: Fraunces;
+  font-size: 11px;
+  font-weight: 900;
+  padding: 13px 25px;
+}
+
+.contact-link:hover {
+  background-color: hsl(0, 0%, 100%, 25%);
+  color: white;
 }
 
 .subtitle {
+  font-family: Fraunces;
+  font-size: 50px;
+  font-stretch: ultra-expanded;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  padding: 20px 0px;
   text-align: center;
+  text-shadow: 1px 0 white;
 }
 
 .arrow-down {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 175px;
+  margin-top: 0;
+  padding-top: 10px;
 }
