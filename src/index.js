@@ -1,6 +1,6 @@
 import "./styles.css";
-
-document.getElementById("app").innerHTML = `
+/*
+document.getElementById("").innerHTML = `
 <h1>Hello Cruz</h1>
 <div>
   We use the same configuration as Parcel to bundle this sandbox, you can find more
@@ -8,3 +8,4 @@ document.getElementById("app").innerHTML = `
   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
 </div>
 `;
+*/
