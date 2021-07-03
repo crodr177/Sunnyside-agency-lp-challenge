@@ -1,4 +1,3 @@
-import "./styles.css";
 /*
 document.getElementById("").innerHTML = `
 <h1>Hello Cruz</h1>
